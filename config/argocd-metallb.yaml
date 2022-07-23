@@ -16,8 +16,8 @@ spec:
             - name: default
               protocol: layer2
               addresses:
-                - 172.18.0.2-172.18.0.5
-                #- 10.10.10.52-10.10.10.55
+                #- 172.18.0.2-172.18.0.5
+                - 10.10.10.37-10.10.10.40
   destination:
     server: https://kubernetes.default.svc
     namespace: metallb-system
